@@ -1,0 +1,168 @@
+{
+ "judge_vs_judge": {
+  "length_biased__position_biased": {
+   "a": {
+    "a": 227,
+    "b": 1,
+    "tie": 17
+   },
+   "b": {
+    "a": 144,
+    "b": 79,
+    "tie": 11
+   },
+   "tie": {
+    "a": 12,
+    "b": 0,
+    "tie": 9
+   }
+  },
+  "length_biased__rubric": {
+   "a": {
+    "a": 139,
+    "b": 24,
+    "tie": 82
+   },
+   "b": {
+    "a": 15,
+    "b": 136,
+    "tie": 83
+   },
+   "tie": {
+    "a": 5,
+    "b": 4,
+    "tie": 12
+   }
+  },
+  "position_biased__rubric": {
+   "a": {
+    "a": 143,
+    "b": 105,
+    "tie": 135
+   },
+   "b": {
+    "a": 5,
+    "b": 52,
+    "tie": 23
+   },
+   "tie": {
+    "a": 11,
+    "b": 7,
+    "tie": 19
+   }
+  }
+ },
+ "judges": {
+  "length_biased": {
+   "agreement": 0.528,
+   "agreement_ci95": [
+    0.484195,
+    0.571378
+   ],
+   "kappa": 0.277634,
+   "swap_consistency": 0.926,
+   "swap_flips": 37,
+   "verbosity": {
+    "by_length_diff": {
+     "25to100pct": {
+      "agreement": 0.666667,
+      "n": 60
+     },
+     "ge100pct": {
+      "agreement": 0.80786,
+      "n": 229
+     },
+     "lt25pct": {
+      "agreement": 0.5,
+      "n": 58
+     }
+    },
+    "gap": 0.911342,
+    "longer_wins": {
+     "agreement": 0.957854,
+     "n": 261
+    },
+    "shorter_wins": {
+     "agreement": 0.046512,
+     "n": 86
+    }
+   }
+  },
+  "position_biased": {
+   "agreement": 0.424,
+   "agreement_ci95": [
+    0.381423,
+    0.467736
+   ],
+   "kappa": 0.104388,
+   "swap_consistency": 0.282,
+   "swap_flips": 359,
+   "verbosity": {
+    "by_length_diff": {
+     "25to100pct": {
+      "agreement": 0.433333,
+      "n": 60
+     },
+     "ge100pct": {
+      "agreement": 0.611354,
+      "n": 229
+     },
+     "lt25pct": {
+      "agreement": 0.517241,
+      "n": 58
+     }
+    },
+    "gap": 0.318097,
+    "longer_wins": {
+     "agreement": 0.643678,
+     "n": 261
+    },
+    "shorter_wins": {
+     "agreement": 0.325581,
+     "n": 86
+    }
+   }
+  },
+  "rubric": {
+   "agreement": 0.48,
+   "agreement_ci95": [
+    0.436528,
+    0.523777
+   ],
+   "kappa": 0.221296,
+   "swap_consistency": 1.0,
+   "swap_flips": 0,
+   "verbosity": {
+    "by_length_diff": {
+     "25to100pct": {
+      "agreement": 0.266667,
+      "n": 60
+     },
+     "ge100pct": {
+      "agreement": 0.646288,
+      "n": 229
+     },
+     "lt25pct": {
+      "agreement": 0.086207,
+      "n": 58
+     }
+    },
+    "gap": 0.570212,
+    "longer_wins": {
+     "agreement": 0.628352,
+     "n": 261
+    },
+    "shorter_wins": {
+     "agreement": 0.05814,
+     "n": 86
+    }
+   }
+  }
+ },
+ "label_counts": {
+  "a": 184,
+  "b": 164,
+  "tie": 152
+ },
+ "n_rows": 500
+}

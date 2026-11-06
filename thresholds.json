@@ -1,0 +1,5 @@
+{
+  "length_biased": {"min_kappa": 0.2, "min_agreement_lower": 0.45, "min_swap_consistency": 0.9, "max_verbosity_gap": 0.95},
+  "position_biased": {"min_kappa": 0.05, "min_agreement_lower": 0.35, "min_swap_consistency": 0.25, "max_verbosity_gap": 0.4},
+  "rubric": {"min_kappa": 0.15, "min_agreement_lower": 0.4, "min_swap_consistency": 1.0, "max_verbosity_gap": 0.65}
+}
